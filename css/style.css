@@ -1,3 +1,52 @@
+/* Header */
+header {
+    height: 50px;
+    padding: 15px;
+    background-color: lightcoral;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+   }
+
+/* Main */
+main {
+    height: 800px;
+    padding: 15px;
+    background-color: rgb(187, 195, 224);
+}
+
+.claim {
+    height: 400px;
+    background-image: url(../images/perro.jpg);
+}
+
+.claim h1 {
+    color: white;
+}
+
+.card{
+    height: 50px;
+    padding: 15px;
+    border: solid 3px lightgreen;
+}
+
+.card:first-of-type{
+    background-color: lightgrey;
+}
+
+.card:last-of-type{
+    background-color: rgb(130, 223, 175);
+}
+
+/* Footer */
+footer {
+    height: 60px;
+    padding: 20px;
+    background-color: lightpink;
+}
+
 /**
  * Add your custom styles below
  * 
