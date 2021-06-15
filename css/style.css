@@ -12,18 +12,32 @@ header nav {
 
 /* Main */
 main {
-    height: 800px;
     padding: 15px;
     background-color: rgb(187, 195, 224);
 }
 
 .claim {
-    height: 400px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(../images/perro.jpg);
 }
 
 .claim h1 {
     color: white;
+}
+
+.features {
+    display: flex;
+}
+
+.features .feature {
+    text-align: center;
+    padding: 15px;
+}
+
+.feature i {
+    font-size: 60px;
 }
 
 .card{
