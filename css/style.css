@@ -67,9 +67,8 @@ main {
 
 /* Footer */
 footer {
-    height: 60px;
     padding: 20px;
-    background-color: lightpink;
+    background-color: #e3f2fd;
 }
 
 /** Cuando la pantalla se ponga en 320px se hará más pequeña la frase  */
