@@ -1,7 +1,5 @@
 /* Header */
 
-
-
 /* Header antiguo
 header {
     height: 50px;
@@ -15,12 +13,13 @@ header nav {
    }
 */
 
+
 /* Main */
 main {
     padding: 15px;
     background-color: rgb(187, 195, 224);
 }
-
+/* Container antiguo dentro de Main
 .claim {
     height: 600px;
     background-size: cover;
@@ -36,6 +35,7 @@ main {
     color: black;
     padding: 12px;
 }
+*/
 
 .features {
     display: flex;
