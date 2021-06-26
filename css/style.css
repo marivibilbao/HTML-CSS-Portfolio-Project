@@ -21,10 +21,15 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/perro.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
 }
 
 .claim h1 {
-    color: white;
+    color: black;
+    padding: 12px;
 }
 
 .features {
@@ -60,6 +65,21 @@ footer {
     padding: 20px;
     background-color: lightpink;
 }
+
+/** Cuando la pantalla se ponga en 320px se hará más pequeña la frase  */
+@media (max-width: 320px) {
+    span {
+        font-size: 10px;
+    }
+}
+
+/** Pendiente revisar
+@media (max-width: 767px) {
+    .claim {
+        background-image: url(../images/perro.jpg);
+    }
+}
+*/
 
 /**
  * Add your custom styles below
