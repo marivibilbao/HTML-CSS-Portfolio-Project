@@ -1,4 +1,8 @@
 /* Header */
+
+
+
+/* Header antiguo
 header {
     height: 50px;
     padding: 15px;
@@ -9,6 +13,7 @@ header nav {
     display: flex;
     justify-content: space-between;
    }
+*/
 
 /* Main */
 main {
